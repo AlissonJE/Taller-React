@@ -1,1 +1,10 @@
-npm create vite@latest Project name: pagina-bienvenida-react Framework: React Variant: JavaScript cd pagina-bienvenida-react npm install npm run dev
+const App = () => {
+  return (
+    <div>
+      <h1>Página de Bienvenida</h1>
+    </div>
+  );
+};
+
+export default App;
+
